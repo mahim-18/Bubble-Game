@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(240, 138, 101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 90%;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.543);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.box-nav{
+    width: 100%;
+    padding: 0px 30%;
+    height: 100px;
+    background-color: rgb(228, 88, 7);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.elem h4{
+    color: white;
+}
+
+.nav-elem{
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.box-main{
+    height: calc(100% - 100px);
+    width: 100%; 
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.bubble{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(230, 110, 58);
+}
+
+.bubble:hover{
+    background-color: rgb(243, 83, 15);
+}
+
+.gameover{
+    font-size: 30px;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
